@@ -1,23 +1,28 @@
+:root {
+    --calendar-color: rgb(255, 96, 176);
+}
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 216, 237);
     margin: 0 auto;
     width: 360px;
-    border: 3px solid blue;
+    border: 3px solid var(--calendar-color);
+    border-radius: 1em;
     padding: 0 2em 1em;
 }
 h1 {
-    color: blue;
+    color: black;
     margin-bottom: .25em;
 }
 table {
     border-collapse: collapse;
-    border: 1px solid black;
+    border: 1px solid var(--calendar-color);
 }
 td {
     width: 3em;
     height: 3em;
     vertical-align: top;
     padding: 0.5 0 0 0.5;
-    border: 1px solid black;
+    border: 1px solid var(--calendar-color);
 }
